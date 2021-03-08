@@ -1,0 +1,40 @@
+#######################################################################################
+# Book settings
+title : OCR book
+author: Pham Dinh Khanh and Nguyen Manh Nguyen
+logo: 'ocr_logo.png'
+# Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
+exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+
+# Short description about the book
+description: >-
+  A brief introduction to OCR domain.
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks           : cache
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar         : false
+
+# #######################################################################################
+# Interact link settings
+notebook_interface            : "notebook"
+
+#######################################################################################
+# Launch button settings
+repository:
+  url                         : https://github.com/phamdinhkhanh/OCR-book
+  path_to_book                : "ocr_book"
+
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
+
+latex:
+  latex_engine                : "xelatex"
+  latex_documents:
+    targetname: book.tex

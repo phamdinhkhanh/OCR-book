@@ -1,4 +1,4 @@
-# quantecon-mini-example
+# OCR Book
 
 A short example showing how to write a lecture series using Jupyter Book 2.0.
 
@@ -38,15 +38,18 @@ firefox mini_book/_build/html/index.html
 
 ## Format a markdown template
 
-### Insert image:
+1. Insert image:
 
+```
 ![Stop a SageMaker instance.](../img/sagemaker-stop.png)
 :width:`300px`
 :height:`300px`
 :label:`fig_sagemaker-stop`
+```
 
-### Insert code:
+2. Insert code:
 
+```
 :begin_tab:`pytorch`
 ```bash
 cd SageMaker/d2l-pytorch-sagemaker/
@@ -54,22 +57,29 @@ git reset --hard
 git pull
 ```
 :end_tab:
+```
 
 ### note/warning/admotion:
 
+```
 ```{note}
 some thing you note
 ```
+```
 
+```
 ```{warning}
 some thing you note
 ```
+```
 
+```
 ```{admonition}
 some thing you note
 ```
+```
 
-### latex:
+3. latex:
 
 $$
 x = \frac{-b +- \sqrt{b^2-4ac}}{2}
