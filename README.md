@@ -38,52 +38,11 @@ firefox mini_book/_build/html/index.html
 
 ## Format a markdown template
 
-1. Insert image:
+[markdown template](https://jupyterbook.org/content/content-blocks.html)
 
-```
-![Stop a SageMaker instance.](../img/sagemaker-stop.png)
-:width:`300px`
-:height:`300px`
-:label:`fig_sagemaker-stop`
-```
+## latex:
 
-2. Insert code:
-
-```
-:begin_tab:`pytorch`
-```bash
-cd SageMaker/d2l-pytorch-sagemaker/
-git reset --hard
-git pull
-```
-:end_tab:
-```
-
-### note/warning/admotion:
-
-```
-```{note}
-some thing you note
-```
-```
-
-```
-```{warning}
-some thing you note
-```
-```
-
-```
-```{admonition}
-some thing you note
-```
-```
-
-3. latex:
-
-$$
-x = \frac{-b +- \sqrt{b^2-4ac}}{2}
-$$
+[math latex](https://jupyterbook.org/content/math.html)
 
 ## Publishing this Jupyter Book
 
