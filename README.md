@@ -2,14 +2,14 @@
 
 A short example showing how to write a lecture series using Jupyter Book 2.0.
 
-## Creating an Conda Environment
+## 1. Creating an Conda Environment
 
 The conda environment is provided as `environment.yml`. This environment is used for all testing by Github Actions and can be setup by:
 
 1. `conda env create -f environment.yml`
 2. `conda activate qe-mini-example`
 
-## Building a Jupyter Book
+## 2. Building a Jupyter Book
 
 Run the following command in your terminal:
 
@@ -36,19 +36,19 @@ View the result through a browser — try (with, say, firefox)
 firefox mini_book/_build/html/index.html
 ```
 
-## Format a markdown template
+## 3. Format a markdown template
 
 [markdown template](https://jupyterbook.org/content/content-blocks.html)
 
-## latex:
+## 4. latex:
 
 [math latex](https://jupyterbook.org/content/math.html)
 
-## Publishing this Jupyter Book
+## 5. Publishing this Jupyter Book
 
 This repository is published automatically to `gh-pages` upon `push` to the `master` branch.
 
-## Notes
+## 6. Notes
 
 This repository is used as a test case for [jupyter-book](https://github.com/executablebooks/jupyter-book) and 
 a `requirements.txt` file is provided to support this `CI` application.
